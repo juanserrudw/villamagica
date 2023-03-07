@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VillaMgic_API.props" />
+</Project>
