@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Oc8Q6ghuPnnOHvFX6vpdBMUNT/NlzGv2DFuiX8gJGtUAdXbi3fRqJhxui8w0ytATVzQq5nHBAVBgPj6TXs56aw==",
+  "dgSpecHash": "X2xqXN4gLETfcd0exiEriedwGoKwkJrISQYMkb/qghuPToUcfGin0bGMgg1X7hxKatEVdWtxawJzlKeb+XxmMQ==",
   "success": true,
   "projectFilePath": "D:\\C#\\Proyects\\VillaMgic\\VillaMgic_API\\VillaMgic_API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
