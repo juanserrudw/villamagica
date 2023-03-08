@@ -11,6 +11,10 @@ namespace VillaMgic_API.Data
         }
 
         public DbSet<Villa> villas { get; set; }
+        
+        public DbSet<NumeroVilla> numeroVillas { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Villa>().HasData(

@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using VillaMgic_API;
 using VillaMgic_API.Data;
+using VillaMgic_API.Repository;
+using VillaMgic_API.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +20,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 
+builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+
+builder.Services.AddScoped<INumeroVillaRepository,NumeroVillaRepository>();
 var app = builder.Build();
 
 
